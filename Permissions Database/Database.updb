@@ -687,7 +687,8 @@ Bukkit+minecraft.command.spawnpoint+Ability to use the spawnpoint command (sets 
 Bukkit+minecraft.command.spreadplayers+Ability to use the spreadplayers command (spreads players randomly throughout a region of blocks)+/spreadplayers
 Bukkit+minecraft.command.stop+Ability to use the stop command (stops the server)+/stop
 Bukkit+minecraft.command.summon+Ability to use the summon command (summons an entity)+/summon
-Bukkit+minecraft.command.teleport+Ability to use the tp command (teleports player1 to the same location as player2)+/tp
+Bukkit+minecraft.command.teleport+Ability to use the tp command [1.15+](teleports player1 to the same location as player2)+/tp
+Bukkit+minecraft.command.tp+Ability to use the tp command [1.8.8-1.14.2] (teleports player1 to the same location as player2)+/tp
 Bukkit+minecraft.command.tell+Ability to use the tell command (privately message another player)+/tell
 Bukkit+minecraft.command.tellraw+Ability to use the tellraw command (privately message another player using the JSON text format)+/tellraw
 Bukkit+minecraft.command.testfor+Ability to use the testfor command (tests for players with the specified names and generalData tag)+/testfor
