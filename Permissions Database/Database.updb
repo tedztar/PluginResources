@@ -5761,6 +5761,62 @@ Ultimate_Name_Color+tab.red+Allow to change there Tab name in red.
 Ultimate_Name_Color+tab.white+Allow to change there Tab name in white.
 Ultimate_Name_Color+tab.yellow+Allow to change there Tab name in yellow.
 Ultimate_Name_Color+UNC.admin+Allow to Reload the plugin and reset players.+/name reload,/name reset
+ultimatemoderation+um.moderate+This allows the user to open the moderation panel.+/um, /p
+ultimatemoderation+um.vanish+Allows the user to vanish from other players.+/vanish
+ultimatemoderation+um.invsee+Allows the user to view another player's inventory.+/invsee <player>
+ultimatemoderation+um.viewenderchest+Allows the user to view another player's enderchest.+/vec <player>
+ultimatemoderation+um.spy+Allow you to spy on another player by viewing what they see and where they are.+/spy <player>
+ultimatemoderation+um.freeze+This allows the user to freeze a specified player, this makes it so the targeted player cannot move, drop items, etc.+/freeze <player>
+ultimatemoderation+um.randomplayer+Teleport to a random player that is currently online in the server.+/randomplayer
+ultimatemoderation+um.togglechat+Sick of getting spammed or reading the chat? This command allows you to toggle the chat on or off.+/togglechat
+ultimatemoderation+um.clearchat+Clears the chat so any text is removed from sight.+/clearchat
+ultimatemoderation+um.clearchat.force+Allows the clearing of the chat even for users who normally bypass the clearing.+/clearchat force
+ultimatemoderation+um.staffchat+Allows you to create a staff chat under a specified name. Using this on an already existing room will simple toggle that room.+/sc [room]
+ultimatemoderation+um.slowmode+This toggles the chat to be slowed down. This can be set to be enabled by default.+/slowmode [delay in seconds]
+ultimatemoderation+um.tickets+This opens the ticket system GUI.+/ticket
+ultimatemoderation+um.templates+Allows you to execute a template on a player+/runtemplate <player> <template>
+ultimatemoderation+um.warning+This allows the user to warn a player for a specified reason.+/warn <player> <reason>
+ultimatemoderation+um.kick+This allows the user to kick a player for a specified reason.+/kick <player> <reason>
+ultimatemoderation+um.mute+This allows the user to mute a player for a specified reason.+/mute <player> <reason>
+ultimatemoderation+um.mute+This allows the user to unmute a player+/unmute <player>
+ultimatemoderation+um.ban+This allows the user to ban a player for a specified reason.+/ban <player> <reason>
+ultimatemoderation+um.ban+This allows the user to unban a player+/unban <player>
+ultimatemoderation+um.revive+This allows the user to revive a player on their death location.+/revive <player>
+ultimatemoderation+um.commandspy+This allows the user to spy on all commands that are being run by other players.+/commandspy
+ultimatemoderation+um.admin+Allows the user to configure the settings from an in-game GUI.+/um settings
+ultimatemoderation+um.admin+Reloads the configuration and language files+/um reload
+ultimatemoderation+um.vanish.bypass+Allows the user to see vanished people.
+ultimatemoderation+um.clearchat.bypass+Allows the user to bypass the chat being cleared.
+ultimatemoderation+um.togglechat.bypass+Allows you to talk in the chat even when it has been toggled off.
+ultimatemoderation+um.commandblock.bypass+Allows the user to bypass blocked commands.
+ultimatemoderation+um.commandspy.immune+Allow the user's commands to not show up to people with the commandspy permission.
+ultimatemoderation+um.ticket.openclose+Allow the user to open and close tickets.
+ultimatemoderation+um.staffchat.spy+Allows the user to see all staff chat channels.
+ultimatemoderation+um.tickets.clicktotele+Allows the user to teleport to the ticket creation location.
+ultimatemoderation+um.slowmode.bypass+Allows the user to bypass slowed chat.
+ultimatemoderation+um.ban.exempt+Prevents the user from being able to be banned.
+ultimatemoderation+um.ban.permanent+Allows the user to issue permanent bans.
+ultimatemoderation+um.freeze.exempt+Prevents the user from being able to be frozen.
+ultimatemoderation+um.invsee.exempt+Prevents the user's inventory from being viewed using /invsee.
+ultimatemoderation+um.kick.exempt+Prevents the user from being able to be kicked.
+ultimatemoderation+um.mute.exempt+Prevents the user from being able to be muted.
+ultimatemoderation+um.spy.exempt+Prevents the user from being able to be spied on.
+ultimatemoderation+um.viewenderchest.exempt+Prevents the user's ender chest from being viewed using /vec.
+ultimatemoderation+um.warning.exempt+Prevents the user from being able to be warned.
+ultimatemoderation+um.templates.use+Allows the user to use templates on players.
+ultimatemoderation+um.templates.create+Allows the user to create a template.
+ultimatemoderation+um.templates.edit+Allows the user to edit a template.
+ultimatemoderation+um.templates.destroy+Allows the user to destroy a template.
+ultimatemoderation+um.notes+Allows the user to open the notes GUI.
+ultimatemoderation+um.notes.create+Allows the user to create notes about a player.
+ultimatemoderation+um.notes.delete+Allows the user to remove notes about a player.
+ultimatemoderation+um.punish+Allows the user to open the punish GUI.
+ultimatemoderation+um.ticket+Allows the user to open the tickets GUI.
+ultimatemoderation+um.tickets.respond+Allows the user to respond to tickets.
+ultimatemoderation+um.tickets.create+Allows the user to create tickets.
+ultimatemoderation+um.punishments+Allows the user to open the punishments GUI.
+ultimatemoderation+um.moderation+Allows the user to open the moderation GUI.
+ultimatemoderation+um.trackblockbreaks+Allows the users blocks to be tracked.
 UltimatePets+ultimatepets.adminCommands.convert+With this permission the player can use "/ultimatepets convert" command
 UltimatePets+ultimatepets.adminCommands.delete+With this permission the player can use "/ultimatepets delete" command
 UltimatePets+ultimatepets.adminCommands.give+With this permission the player can use "/ultimatepets give" command
